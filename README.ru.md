@@ -33,6 +33,20 @@ Poetry:
 poetry install
 ```
 
+## Запуск
+
+Из корня проекта:
+
+```bash
+python main.py --files data/economic1.csv data/economic2.csv --report average-gdp
+```
+
+Или через uv:
+
+```bash
+uv run main.py --files data/economic1.csv data/economic2.csv --report average-gdp
+```
+
 ## Тестирование
 
 Запускать тесты можно командой

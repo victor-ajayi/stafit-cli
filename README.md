@@ -33,6 +33,20 @@ Poetry:
 poetry install
 ```
 
+## Run
+
+From the project root:
+
+```bash
+python main.py --files data/economic1.csv data/economic2.csv --report average-gdp
+```
+
+Or with uv:
+
+```bash
+uv run main.py --files data/economic1.csv data/economic2.csv --report average-gdp
+```
+
 ## Testing
 
 Run tests with:
